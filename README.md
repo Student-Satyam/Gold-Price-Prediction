@@ -1,4 +1,4 @@
-# 📈 Stock Price Prediction (RandomForestRegressor + Streamlit)
+# 📈 Gold Price Prediction (RandomForestRegressor + Streamlit)
 
 This project predicts the **next day's stock closing price** using a **Random Forest Regressor** and displays it through a **Streamlit web app**.
 
@@ -20,3 +20,4 @@ This project predicts the **next day's stock closing price** using a **Random Fo
   - Financial data is time-sensitive.  
   - We split data *chronologically* (first 80% for training, last 20% for testing).  
   - This ensures future prices don’t leak into past data (avoiding overfitting).
+
